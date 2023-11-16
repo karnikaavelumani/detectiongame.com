@@ -1,6 +1,6 @@
-import homestyles from './page.module.css';
-import About from '@/components/about';
-import Hero from '@/components/hero/hero';
+import homestyles from "./page.module.css";
+import About from "@/components/about";
+import Hero from "@/components/hero/hero";
 
 export default function Home() {
   return (
@@ -8,5 +8,5 @@ export default function Home() {
       <Hero />
       {/* <About /> */}
     </main>
-  )
+  );
 }

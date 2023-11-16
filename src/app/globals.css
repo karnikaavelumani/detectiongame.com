@@ -4,7 +4,7 @@
 }
 
 ::selection {
-  background-color: rgb(252,61,57);
+  background-color: rgb(252, 61, 57);
 }
 
 * {
@@ -31,4 +31,3 @@ a {
   color: inherit;
   text-decoration: none;
 }
-
