@@ -1,0 +1,31 @@
+.objective {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.objective__title {
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: 300;
+}
+
+.objective__title h1 {
+    font-weight: 200;
+}
+
+.objective__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 1024px;
+    margin: 0 auto;
+    height: 100%;
+    padding: 25px;
+    background-color: #181818;
+    border-radius: 15px;
+}
