@@ -7,6 +7,10 @@
   position: relative;
 }
 
+.objective__content {
+  margin: 1em;
+}
+
 .objective__title {
   justify-content: flex-start;
   align-items: center;
@@ -45,4 +49,30 @@
   font-weight: 200;
   margin-top: 10px;
   width: 80%;
+}
+
+@media (max-width: 786px) {
+  .objective {
+    height: auto;
+    min-height: 100vh; /* Ensures the section still covers the viewport */
+  }
+
+  .objective__container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .objective__item {
+    width: 100%;
+  }
+
+  .objective__line {
+    width: 100%;
+    height: 0;
+    border: 1px solid #fff;
+  }
+
+  .objective__description {
+    width: 100%;
+  }
 }
