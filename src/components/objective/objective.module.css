@@ -1,0 +1,78 @@
+.objective {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.objective__content {
+  margin: 1em;
+}
+
+.objective__title {
+  justify-content: flex-start;
+  align-items: center;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.objective__container {
+  display: flex;
+  flex-direction: row;
+  max-width: 1024px;
+  height: 100%;
+  padding: 25px;
+  background-color: #181818;
+  border-radius: 15px;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.objective__item {
+  display: flex;
+  justify-content: flex-start;
+  width: 20%;
+  font-size: 23px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.objective__line {
+  border-left: 0px solid #fff;
+  height: 100px;
+}
+
+.objective__description {
+  font-size: 20px;
+  font-weight: 200;
+  margin-top: 10px;
+  width: 80%;
+}
+
+@media (max-width: 786px) {
+  .objective {
+    height: auto;
+    min-height: 100vh; /* Ensures the section still covers the viewport */
+  }
+
+  .objective__container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .objective__item {
+    width: 100%;
+  }
+
+  .objective__line {
+    width: 100%;
+    height: 0;
+    border: 1px solid #fff;
+  }
+
+  .objective__description {
+    width: 100%;
+  }
+}
